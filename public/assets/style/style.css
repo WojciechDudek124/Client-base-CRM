@@ -1,0 +1,28 @@
+table{
+    text-align: left;
+}
+
+tr{
+    margin: 2px;
+    background: #d2d2d2;
+}
+
+tr:nth-child(2n){
+    background: #f3f3f3;
+}
+
+thead tr, .header-of-left th{
+    background: grey;
+}
+td, th {
+    padding: 6px;
+}
+
+.error{
+    background: #dab0b0;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+
+}
